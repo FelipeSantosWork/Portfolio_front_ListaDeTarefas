@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Roboto&display=swap');
+
+main {
+    background-color: #e2e2e2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'roboto', sans-serif;
+    gap: 1rem;
+    margin: 1rem auto;
+
+}
+
+.header__content {
+    gap: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.header__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #3b5bdb;
+}
+
+.header__input--search {
+    width: 50%;
+    display: flex;
+    background-color: #ebebeb;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    color: #727070;
+    font-size: 0.8rem;
+
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    margin: 0.5rem auto;
+    width: 100%;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: white;
+    gap: 2rem;
+    width: 70%;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.form__input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form__input--text {
+    display: flex;
+    width: 55%;
+    background-color: #ebebeb;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.8rem;
+}
+
+.form__input--priority {
+    display: flex;
+    width: 35%;
+    background-color: #ebebeb;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    color: #727070;
+    font-size: 0.8rem;
+
+}
+
+.form__button--add-task {
+    display: flex;
+    justify-content: center;
+    background-color: #3b5bdb;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+.form__button--add-task:hover{
+    background-color: #526fe4;
+}
+.form__button--add-task:active{
+    background-color: #091853;    
+}
+
+.title2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.tasks__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    gap: 2rem;
+    width: 70%;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+
+.tasks__list {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    width: 90%;
+    font-size: 0.8rem;
+}
+
+.task__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: #ebebeb;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.task-info__container {
+    display: flex;
+    gap: 10px;
+}
+
+.task-type {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.span-urgent {
+    background-color: #e40404;
+}
+.span-important {
+    background-color:#f3a703 ;
+}
+.span-normal{
+    background-color: #028302;
+}
+.task__button--remove-task{
+    background-image: url(./assets/trash-icon.svg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 15px;
+    border: none;
+}
+.task__button--remove-task:hover{
+    background-image: url(./assets/trash-icon.svg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    border: none;
+}
+.task__button--remove-task:active{
+    background-image: url(./assets/trash-icon.svg);
+    background-color: #8a8a8a;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    border: none;
+}
